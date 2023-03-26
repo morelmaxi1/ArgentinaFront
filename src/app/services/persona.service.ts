@@ -11,7 +11,7 @@ import { Persona } from '../models/persona.models';
 
 export class PersonaService {
   
- URL = 'https://argent.onrender.com/personas/' ;
+ URL =  'https://argent.onrender.com/personas/' //'http://localhost:8080/personas/';
   constructor (private httpClient: HttpClient) { }
 
 

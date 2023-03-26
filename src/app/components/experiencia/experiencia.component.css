@@ -4,8 +4,12 @@
 }
 
 div{
-    background-color: rgb(173, 213, 247);
-}
+    background-color:  rgb(141, 197, 250);}
 h1,h3{
     display: inline;
+}
+.titulo{
+font-family: "monserrat";
+font-style: italic;
+font: bolder;
 }

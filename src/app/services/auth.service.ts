@@ -8,8 +8,9 @@ import { LoginUsuario } from '../models/login-usuario';
   providedIn: 'root'
 })
 export class AuthService {
-  authURL = 'https://argent.onrender.com/auth/';
-
+ // authURL = 'http://localhost:8080/auth/';
+ authURL = 'https://argent.onrender.com/auth/';
+  
   constructor(private httpClient: HttpClient) { }
 
   public nuevo(nuevoUsuario:NuevoUsuario): Observable<any>{

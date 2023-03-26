@@ -8,7 +8,7 @@ import { Hys } from '../models/hys';
 })
 export class HysService {
 
-  HySURL = 'https://argent.onrender.com/hys/'
+  HySURL = 'https://argent.onrender.com/hys/'//'http://localhost:8080/hys/'
   
   constructor(private httpClient: HttpClient) { }
 

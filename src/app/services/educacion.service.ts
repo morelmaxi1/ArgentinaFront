@@ -8,7 +8,7 @@ import { Educacion } from '../models/educacion';
 })
 
 export class EducacionService {
-  eduURL = 'https://argent.onrender.com/educacion/'
+  eduURL = 'https://argent.onrender.com/educacion/'//'http://localhost:8080/educacion/'
   constructor(private httpClient: HttpClient) { }
 
 

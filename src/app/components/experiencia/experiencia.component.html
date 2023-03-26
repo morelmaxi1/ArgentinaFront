@@ -1,5 +1,5 @@
 <div class="row">
-  <h1>EXPERIENCIA LABORAL</h1>
+  <h1 class="titulo  shadow p-3 mb-5 bg-body rounded ">EXPERIENCIA LABORAL</h1>
   <div class="col-lg-2">
     <button
       type="button"
@@ -17,9 +17,9 @@
       <tbody>
         <tr *ngFor="let Experiencia of expe">
           <td>
-            <h2>{{ Experiencia.nombreE }}</h2>
+            <h2 class="titulo">{{ Experiencia.nombreE }}</h2>
           </td>
-          <td>{{ Experiencia.descripcionE }}</td>
+          <td class="titulo" >{{ Experiencia.descripcionE }}</td>
 
           <td *ngIf="isLogged">
             <button
